@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
 files = sorted(
-    glob.glob("ez_*.csv"),
+    glob.glob("outputs/ez_*.csv"),
     key=lambda f: int(f.split("_")[1].split(".")[0])
 )
 
