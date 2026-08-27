@@ -4,10 +4,10 @@
 #include <iostream>
 #include <string>
 
-#include "sources.h"
-#include "simple_pml.h"
-#include "grid3D.h"
-#include "materials.h"
+#include "lib/sources.h"
+#include "lib/simple_pml.h"
+#include "lib/grid3D.h"
+#include "lib/materials.h"
 
 constexpr double c0 = 299792458.0;
 constexpr double mu0 = 4.0e-7 * M_PI;
